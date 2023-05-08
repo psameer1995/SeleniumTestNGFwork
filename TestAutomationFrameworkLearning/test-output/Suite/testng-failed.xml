@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcase.myReadExcelDataIntoTC2">
+      <class name="testcase.myReadExcelDataIntoTC3">
         <methods>
           <include name="setUp"/>
-          <include name="UserLoginTest" invocation-numbers="1"/>
           <include name="tearDown"/>
+          <include name="SamTest"/>
         </methods>
-      </class> <!-- testcase.myReadExcelDataIntoTC2 -->
+      </class> <!-- testcase.myReadExcelDataIntoTC3 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
